@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-
 client.once('ready', () => {
 	console.log('Ready!');
 });
@@ -15,4 +14,4 @@ client.on('message', async message => {
 	}
 });
 
-client.login('ODQwMTE4ODAzMTQwNzA2MzA0.YJTjmw.a-ITiKZi6tRrEU6wsEIqiwgdek0');
+client.login('ODQwMTE4ODAzMTQwNzA2MzA0.YJTjmw.ytAF1_xPesGE29ponc7kBahnNv8');
